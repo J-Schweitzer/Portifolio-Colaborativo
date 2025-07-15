@@ -38,8 +38,33 @@ body {
     line-height: 1.7;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    
 }
 
+#about {
+
+padding: 100px 0; /* Espaçamento vertical para separar das outras seções */
+text-align: left; /* Centraliza todo o conteúdo da seção */
+background-color: var(--light-blue); /* Um fundo branco para destacar */
+}
+#about p {
+
+font-size: 30px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--secondary-blue);
+    animation: bottomIn var(--animation-duration) var(--animation-timing-function) 0.4s forwards;
+    opacity: 0;
+    max-width: 600px;
+}
+#about h2 {
+    font-size: 3rem;
+    color: var(--primary-dark);
+    animation: bottomIn var(--animation-duration) var(--animation-timing-function) 0.2s forwards;
+    opacity: 0;
+    line-height: 1.1;
+    font-weight: 600;
+}
 /* --- Seção Hero --- */
 #hero {
     min-height: 100vh;
@@ -48,6 +73,40 @@ body {
     overflow: hidden;
     position: relative;
 }
+#contact {
+    padding: 100px 0; /* Espaçamento vertical para separar das outras seções */
+    text-align: left; /* Alinha o texto à esquerda */
+    background-color: var(--light-blue); /* Fundo azul claro */
+}
+
+#contact h2 {
+    font-size: 3rem;
+    color: var(--primary-dark);
+    animation: bottomIn var(--animation-duration) var(--animation-timing-function) 0.2s forwards;
+    opacity: 0;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+#contact .contact-info {
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--secondary-blue);
+    animation: bottomIn var(--animation-duration) var(--animation-timing-function) 0.4s forwards;
+    opacity: 0;
+    max-width: 600px;
+    margin-top: 20px; /* Espaçamento acima do texto */
+}
+
+#contact a {
+    color: var(--accent-color);
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
 
 /* --- Cabeçalho Modificado --- */
 header {
@@ -61,7 +120,14 @@ header {
     z-index: 100;
     width: 100%;
 }
+.titulo-linha {
 
+border: none; /* Remove a borda padrão */
+height: 3px; /* Espessura da linha */
+width: 250px; /* Largura da linha */
+background-color: var(--accent-color); /* Usa sua cor de destaque */
+margin: 10px 0px 10px 0px;
+}
 .header-logo {
     font-size: 28px;
     font-weight: 800;
@@ -168,7 +234,70 @@ nav {
     opacity: 0;
     max-width: 600px;
 }
+.logo23{
+   height: 10%;
+   width: 11%;
+   position: absolute;
+   margin: -200px 0px 0px 135vh;
+   transition: color 0.3s ease, transform 0.3s ease;
+}
+.logo23::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease-out;
+}
+.logo23:hover{
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}
 
+.logo22{
+   height: 10%;
+   width: 5%;
+   position: absolute;
+   margin: -205px 0px 0px 128vh;
+}
+
+.logo22::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease-out;
+}
+.logo22:hover{
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}
+.logo21{
+    height: 10%;
+    width: 5%;
+    position: absolute;
+    margin: -90px 0px 0px 135vh;
+}
+
+.logo21::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease-out;
+}
+.logo21:hover{
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}
 /* --- Seção CTA --- */
 .cta-section {
     display: flex;
