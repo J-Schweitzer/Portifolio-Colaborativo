@@ -1,5 +1,7 @@
  body {
-            background-image: image(img/background);
+            background-image: url(imagemfundo.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
             font-family: sans-serif;
             color: beige;
             margin: 0;
@@ -28,28 +30,7 @@
             transition: transform 0.4s ease, width 0.4s ease; 
             z-index: 1; 
         }
-
         
-        .perfil-1 {
-            background-image: url(img/background.jpg); 
-        }
-        .perfil-2 {
-            background-image: url(img/background.jpg); 
-        }
-
-        
-        .perfil::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5); 
-            transition: background-color 0.4s ease;
-            z-index: -1; 
-        }
-
         .perfil a {
             text-decoration: none; 
             color: inherit; 
@@ -62,7 +43,6 @@
             height: 200px;
             border-radius: 50%;
             overflow: hidden; 
-            border: 4px solid white; 
             transition: transform 0.4s ease;
         }
 
@@ -93,12 +73,9 @@
         
 
         
-        .perfil:hover::before {
-             background-color: rgba(0, 0, 0, 0.2); 
-        }
 
         .perfil:hover {
-            width: 70%; 
+            width: 50%; 
         }
 
         
@@ -106,6 +83,12 @@
             width: 30%;
         }
         .container-perfis:has(.perfil-2:hover) .perfil-1 {
+            width: 30%;
+        }
+        .container-perfis:has(.perfil-3:hover) .perfil-1 {
+            width: 30%;
+        }
+        .container-perfis:has(.perfil-3:hover) .perfil-2 {
             width: 30%;
         }
 
