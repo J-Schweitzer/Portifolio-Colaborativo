@@ -495,7 +495,7 @@ nav {
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     overflow: hidden; 
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;    
     width: 90%;
     max-width: 950px;
     min-width: 350px;
@@ -597,6 +597,46 @@ nav {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     border-color: var(--accent-color);
 }
+
+
+.video-item.hidden-video {
+    display: none; /* This will hide the video item */
+}
+
+/* You might want to adjust the video gallery display if you only want one visible at a time */
+.video-gallery {
+    /* Ensure only one video item is shown at a time if you're using this for a slider */
+    /* If you want them to stack but only show one, you might need to adjust flex-wrap */
+    flex-direction: column; /* Changed to column to stack videos if more than one */
+    align-items: center; /* Center items in the column */
+}
+
+/* Adjustments for the arrow positioning if videos are now stacking */
+.video-next-arrow {
+    position: absolute;
+    /* Remove previous bottom/transform for centering */
+    top: 60%; /* Position vertically centered */
+    right: 20px; /* Adjust this value as needed for spacing from the right edge */
+    transform: translateY(-50%); /* Keeps it perfectly centered vertically */
+
+    font-size: 40px;
+    color: var(--accent-color);
+    background-color: var(--white);
+    border: 2.5px solid var(--accent-color);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    z-index: 10;
+    backface-visibility: hidden;
+    will-change: transform, background-color, color, box-shadow, border-color;
+}
+
 
 
 /* --- Responsividade --- */
